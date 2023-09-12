@@ -16,3 +16,4 @@ const getVisitCount = () => {
         console.log(error);
     });
     return count;
+}
