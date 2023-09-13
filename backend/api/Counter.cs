@@ -8,5 +8,5 @@ namespace Company.Function
     public string Id {get; set;}
     [JsonProperty(PropertyName ="Count")]
     public int Count {get; set;}
-
+   }
    } 
