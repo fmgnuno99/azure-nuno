@@ -24,7 +24,7 @@ namespace Company.Function
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-           UpdatedCounter= counter;
+           UpdatedCounter = counter;
            UpdatedCounter.Count += 1;
 
            var jsonToReturn = JsonConvert.SerializeObject(counter);
